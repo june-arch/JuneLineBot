@@ -1,0 +1,24 @@
+{
+  "name": "junebot",
+  "version": "1.0.0",
+  "description": "chatbot",
+  "main": "index.js",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/june-arch/JuneLineBot.git"
+  },
+  "author": "J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/june-arch/JuneLineBot/issues"
+  },
+  "homepage": "https://github.com/june-arch/JuneLineBot#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^7.2.0",
+    "express": "^4.17.1"
+  }
+}
