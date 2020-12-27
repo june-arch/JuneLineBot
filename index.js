@@ -28,5 +28,5 @@ function mainProgram(event){
   return client.replyMessage(event.replyToken, {type:'text', text: 'Hello, world'}); //balas dengan pesan "Hello, world"
 }
 
-const port = 3000;
+const port = (process.env.PORT || 3000);
 app.listen(port, () => { });
